@@ -1,0 +1,28 @@
+package compareClassString;
+
+public class app {
+	public static void main(String[] args) {
+		
+		String s0 = "trinh quoc thang";
+		String s1 = "Trinh Quoc Thang";
+		String s2 = "Qyn";
+		String s3 = "Qyn";
+		
+		// So sánh 2 chuỗi giống nhau có phân biệt hoa, thường
+		System.out.println("S2 equals S3: "+s2.equals(s3));
+		System.out.println("S0 equals S1: "+s0.equals(s1));
+		System.out.println();
+		
+		// So sánh 2 chuỗi giống nhau không phân biệt chữ hoa, thường
+		System.out.println("S0 equalsIgnoreCase S1: "+s0.equalsIgnoreCase(s1));
+		System.out.println();
+		
+		// So sánh chuỗi theo bản mã ascii và trả về số âm (<), 0 (=), dương(>)
+		System.out.println("S0 > S1? :"+s0.compareTo(s1));
+		System.out.println();
+		
+		// So sánh chuỗi theo bản mã ascii và trả về số âm (<), 0 (=), dương(>) nhưng không phân biệt chữ hoa, thường
+		System.out.println("S0 > S1? :"+s0.compareToIgnoreCase(s1));
+		System.out.println();
+	}
+}

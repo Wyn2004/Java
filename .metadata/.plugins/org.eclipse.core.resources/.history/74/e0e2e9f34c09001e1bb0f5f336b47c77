@@ -1,0 +1,9 @@
+package compareClassString;
+
+public class app {
+	public static void main(String[] args) {
+		
+		String s1 = "Trinh Quoc Thang";
+		String s2 = ""
+	}
+}

@@ -1,0 +1,4 @@
+Hi, my name is Haruki
+Data: 3.14   is Phi
+[Student name: QE180123
+ID: Trinh Quoc Thang]
